@@ -1,0 +1,192 @@
+:root {
+  --backgroung-white-color: #ffffff;
+  --background-grey-color: #f5f4fa;
+  --primary-dark-color: #2f303a;
+  --accent-color: #2196f3;
+  --primary-title-color: #212121;
+  --primary-text-color: #757575;
+  --logo-black-color: #000000;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background-color: var(--backgroung-white-color);
+}
+
+/* Скрывает заголовки */
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+/* Параметры ссылок */
+.link {
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-title-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+/* Изменяет цвет контактов в хедере */
+.header-contacts {
+  color: var(--primary-text-color);
+}
+
+/* Скрывает маркеры списка */
+.list {
+  list-style: none;
+}
+
+/* Показывает текущую страницу в навигации */
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Параметры кнопок */
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--backgroung-white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-title-color);
+  background-color: var(--background-grey-color);
+  cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--accent-color);
+  color: var(--backgroung-white-color);
+}
+
+/* Меняет цвет фона в секциях с темным фоном */
+.dark-color-section {
+  background-color: var(--primary-dark-color);
+}
+
+/*Заголовок списка секции Герой */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--backgroung-white-color);
+}
+
+/* Заголовки секций */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--primary-title-color);
+}
+
+/* Заголовки секции Особенности */
+.specialty-name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primary-title-color);
+}
+
+/* Имена членов команды */
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--primary-title-color);
+}
+
+.team-member > p {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* Параметры логотипа */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo-part-blue {
+  color: var(--accent-color);
+}
+
+.logo-part-black {
+  color: var(--logo-black-color);
+}
+
+.logo-part-white {
+  color: var(--backgroung-white-color);
+}
+
+/* Параметры адреса */
+.address {
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address > p {
+  color: var(--backgroung-white-color);
+}
+
+/* Контакты в футере */
+.footer-contacts {
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Названия проектов */
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-title-color);
+}
+
+/* Харакретистика проектов */
+.project-character {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--primary-text-color);
+}
