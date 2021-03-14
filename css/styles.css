@@ -190,3 +190,8 @@ body {
   line-height: 1.88;
   color: var(--primary-text-color);
 }
+
+/* Изменяет цвет фона */
+.our-team {
+  background-color: var(--background-grey-color);
+}
